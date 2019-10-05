@@ -54,7 +54,7 @@ Check out Cloud Native Computing Foundation, OCI
 - **ADD**
     - copies external files such as .tar and .zip and extracts into destination directory, can use in place of COPY, but recommended to use only for extraction 
 - **ENV**
-    - Set environmental variables, can be passed in to the 
+    - Set environmental variables, can be passed in from out of the container to be use during container runtime or build
 - **VOLUME**
     - set persistent volume in directories, usually used for database files 
 - **EXPOSE**
